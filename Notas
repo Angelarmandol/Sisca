@@ -1,0 +1,73 @@
+Notas:
+
+0000000000000000000000000000000000000000[borrar esto]0000000000000000000000000000000000000000000000000000000000000000
+																													0
+Pueden poner sus notas como quieran, solo que se identifique bien la fecha. [borrar esto]							0
+																													0
+Para las verciones pues les recomiendo seguir el formato. opiniones o algo las ponen aqui o las mandan por fb		0
+																													0
+Como recomendacion, no muevan de linea el codigo ya echo si alguien mas esta trabajando, guarden los numeros		0
+de linea en los que trabajaron para unir  dos codigos mas facil.													0
+																													0
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+-----------------------------
+22/05/2014 02:44 Angel Lopez
+-----------------------------
+////////////////////////////////////////////////////////////////////////////////////////////
+Se creo la clase Autoguardado, que todabia esta en desarrollo, la iomplementacion de el autoguardado se hace desde VentanaMain
+por lo de la conexion, solo queda resolber el problema de la sintaxis de MySQL. 
+
+Se creo la calse generar grafica por motivos de:
+
+1.- Se necesita de una grafica de tipo pastel, que sea mensual de los alumnos que entran a la biblioteca separados por especialidad
+
+		 1.1.- La informacion que se necesita sera guardada automaticamente cada x tiempo en su respectiva tabla en la base de datos.
+		 
+		 Por ejemplo; en el mes de mayo, todos los dias cada 10 minutos se va a guardar el registro (pantalla) en la tabla "mayo2014".
+		 A partir de 1l 1 de junio, todos los dias cada 10 minutos se va a guardar el registro (pantalla) en la tabla "junio2014".
+		 
+		 1.2.- La grafica se generara desde el menu contextual "Herramientas" donde se abrira una pantalla con un "combobox" para 
+		 seleccionar el mes de el que se quiere la tabla, este o no terminado el mes. Esta grafica se guardara en el equipo con el
+		 nombre que el usuario desee por medio de un JOptionPanel (Vease: http://chuwiki.chuidiang.org/index.php?title=JOptionPane_y_di%C3%A1logos_modales)
+
+2.- Para adelantar el trabajo, como guia.
+ ////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+-----------------------------
+22/05/2014 02:50 Angel Lopez
+-----------------------------
+////////////////////////////////////////////////////////////////////////////////////////////
+
+Versión de software
+De Wikipedia, la enciclopedia libre
+El versionado de software es el proceso de asignación de un nombre o número único a un software para indicar su nivel de desarrollo. Generalmente se asigna dos números, mayor.menor (en inglés: major.minor), que van incrementando conforme el desarrollo del software aumente y se requiera la asignación de un nuevo nombre o número único. Aunque menos habituales, también puede indicarse otro número más, micro, y la fase de desarrollo en que se encuentra el software.
+
+Se aumenta el número cuando:
+
+mayor: el software sufre grandes cambios y mejoras.
+menor: el software sufre pequeños cambios y/o correcciones de errores.
+micro: se aplica una corrección al software, y a su vez sufre pocos cambios.
+fase: se indica si se encuentra en una fase de desarrollo que no sea la final o estable, es decir, una fase inestable o en pruebas. Se suele indicar con un guion seguido de la fase correspondiente en minúsculas, o un espacio seguido de la fase. Puede haber varias versiones de una misma fase, para indicar el avance en el desarrollo del software pero manteniendo la fase para indicar que todavía es inestable, indicándose añadiendo un número al final del nombre de la fase que va incrementando conforme se publiquen nuevas versiones de esta fase.
+Ejemplos
+
+mayor.menor: 1.2
+mayor.menor.micro: 1.2.1
+mayor.menor.fase (guion): 1.2-alpha
+mayor.menor.fase (espacio): 1.2 Beta
+mayor.menor.fase+versión fase (guion): 1.2-rc1
+mayor.menor.fase+versión fase (espacio): 1.2 RC1
+mayor.menor.micro.fase+versión fase (guion): 1.2.1-beta
+Véase también
+
+Control de versiones
+Web 2.0
+Obtenido de «http://es.wikipedia.org/w/index.php?title=Versión_de_software&oldid=73252767»
+Categoría: Software
+Esta página fue modificada por última vez el 18 mar 2014, a las 14:33.
+El texto está disponible bajo la Licencia Creative Commons Atribución Compartir Igual 3.0; podrían ser aplicables cláusulas adicionales. Léanse los términos de uso para más información.
+Wikipedia® es una marca registrada de la Fundación Wikimedia, Inc., una organización sin ánimo de lucro.
+
+////////////////////////////////////////////////////////////////////////////////////////////

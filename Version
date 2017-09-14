@@ -1,0 +1,26 @@
+------------------------------------------------------------------
+Version x.x.x|xx/xx/x xx:xx|xxxxxx
+------------------------------------------------------------------
+
+Se agrego  :
+
+Se elimino:
+
+Se modifico:
+
+------------------------------------------------------------------
+Version 0.1.0|22/05/14 02:18|Angel Lopez
+------------------------------------------------------------------
+
+Se agrego  :
+En el boton de exportar ya se puede elegir entre PDF y Excel
+Ya se pueden eliminar filas por numero
+Se tarda 0.5 segundos entre registro (a peticion)
+Libreria "poi" para exportar a excel
+En la celda de trabajo o practica aparece automaticamente "BIBLIOTECA"
+
+Se elimino:
+
+
+Se modifico:
+La etiqueta Grupo por carrera
