@@ -219,12 +219,12 @@ public class VentanaMain extends JPanel {
 
 					MessageFormat headerFormat = new MessageFormat("Grupo ");
 					MessageFormat footerFormat = new MessageFormat(
-							"- Página {0} -");
+							"- PÃ¡gina {0} -");
 					mitable.print(null, headerFormat, footerFormat);
 				} catch (PrinterException ex) {
 					JOptionPane
 							.showMessageDialog(null,
-									"No se ha podido imprimir correctamente, intentalo más tarde.");
+									"No se ha podido imprimir correctamente, intentalo mÃ¡s tarde.");
 				}
 
 			}
@@ -799,12 +799,12 @@ public class VentanaMain extends JPanel {
 			// impresora
 
 			MessageFormat headerFormat = new MessageFormat("Grupo ");
-			MessageFormat footerFormat = new MessageFormat("- Página {0} -");
+			MessageFormat footerFormat = new MessageFormat("- PÃ¡gina {0} -");
 			mitable.print(null, headerFormat, footerFormat);
 		} catch (PrinterException ex) {
 			JOptionPane
 					.showMessageDialog(null,
-							"No se ha podido imprimir correctamente, intentalo más tarde.");
+							"No se ha podido imprimir correctamente, intentalo mÃ¡s tarde.");
 		}
 	}
 
@@ -870,11 +870,11 @@ public class VentanaMain extends JPanel {
 		HSSFRichTextString texto0x9 = new HSSFRichTextString(txt0x9);
 		celda0x9.setCellValue(texto0x9);
 
-		int tamañodemodelo = model.getRowCount();
+		int tamaÃ±odemodelo = model.getRowCount();
 		int contadorParaExcel = 0;
 
 		// para apellido paterno
-		while (contadorparafila1Excel < tamañodemodelo) {
+		while (contadorparafila1Excel < tamaÃ±odemodelo) {
 
 			crearfila(contadorparafila1Excel);
 
@@ -934,7 +934,7 @@ public class VentanaMain extends JPanel {
 
 		// contadorparafila1Excel = 0;
 		//
-		// while (contadorparafila1Excel < tamañodemodelo){
+		// while (contadorparafila1Excel < tamaÃ±odemodelo){
 		//
 		// contadorparafila1Excel++;
 		//
