@@ -137,7 +137,7 @@ public class VentanaMain extends JPanel {
 		JMenu mnBarraDeHerramientas = new JMenu("Barra de Herramientas");
 		mnVer.add(mnBarraDeHerramientas);
 
-		JLabel lblPutas = new JLabel("");
+		JLabel lblPutas = new JLabel(""); // buscar la variables putas
 		mnArchivo.add(lblPutas);
 
 		JLabel lblAbrir = new JLabel("Abrir");
@@ -156,6 +156,8 @@ public class VentanaMain extends JPanel {
 			public void mouseClicked(MouseEvent arg0) {
 			}
 		});
+
+		///--------- Menu Archivo
 		mnArchivo.add(lblCerrar);
 
 		JLabel lblGuardar = new JLabel("Guardar");
@@ -192,6 +194,9 @@ public class VentanaMain extends JPanel {
 			public void mouseClicked(MouseEvent arg0) {
 			}
 		});
+
+
+		///--------- Herramientas
 		mnHerramientas.add(lblConsultar);
 
 		JLabel lblExportarAPdf = new JLabel("Exportar a PDF");
@@ -299,6 +304,8 @@ public class VentanaMain extends JPanel {
 			public void mouseClicked(MouseEvent arg0) {
 			}
 		});
+
+		///--------- Menu Ver
 		mnVer.add(lblLectorDeCodigo);
 
 		JLabel lblPantallaCompleta = new JLabel("Pantalla completa");
@@ -315,6 +322,9 @@ public class VentanaMain extends JPanel {
 			public void mouseClicked(MouseEvent arg0) {
 			}
 		});
+
+
+		///----------------Ayuda
 		mnAyuda.add(lblManualDeUsuario);
 
 		JLabel lblManulDeUsuario = new JLabel("Manual de usuario");
@@ -332,6 +342,8 @@ public class VentanaMain extends JPanel {
 				main.MostrarVentanaAgregarGrupo();
 			}
 		});
+
+		///--------- Menu Grupos
 		mnGrupos.add(lblAgregarGrupo);
 
 		JLabel lblBorrarGrupo = new JLabel("Borrar grupo");
@@ -413,7 +425,7 @@ public class VentanaMain extends JPanel {
 		JButton btnNewButton_1 = new JButton("Eliminar Grupo");
 		btnNewButton_1
 				.setIcon(new ImageIcon(
-						"C:\\Users\\Yodemi\\Desktop\\nuevos_iconos\\varios\\delete_square16_h.ico"));
+						"C:\\Users\\Yodemi\\Desktop\\nuevos_iconos\\varios\\delete_square16_h.ico"));   /// verificar 
 
 		JButton btnNewButton_4 = new JButton("Generar Reporte");
 
